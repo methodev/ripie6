@@ -1,0 +1,79 @@
+/****************************************************** 
+	Title:    RIPIE6.com
+	Author:   MARTIN DESIGN
+	Updated:  6th of May, 2009
+	Style:    RESET Stylesheet
+******************************************************/
+
+
+
+/* ........ Margins & Paddings */
+	body, div, dl, dt, dd, li, pre, form, fieldset, input, textarea, p, blockquote, th, td, h1, h2, h3, h4, h5, h6 {
+		margin: 0px;
+		padding: 0px;
+	}
+/* ........................... */
+
+
+/* .................. Headings */
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 100%;
+		font-weight: normal;
+	}
+/* ........................... */
+
+
+/* ................ Hyperlinks */
+	a {
+		text-decoration: underline;
+		outline: none;
+	}
+
+		a:hover {
+			text-decoration: none;
+		}
+/* ........................... */
+
+
+/* ............. Form Elements */
+	form br {
+		clear: both;
+		line-height: 0pt;
+		font-size: 0pt;
+	}
+
+	textarea {
+		overflow: auto;
+	}
+
+	input.textfield, textarea, select {
+		padding: 2px;
+	}
+/* ........................... */
+
+
+/* .................... Others */
+	address, caption, cite, code, dfn, var {
+		font-style: normal;
+		font-weight: normal;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0px;
+	}
+
+	caption, th {
+		text-align: left;
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	acronym, abbr, fieldset, img {
+		border: 0px;
+	}
+
+	:focus {
+		outline: 0px;
+	}
+/* ........................... */

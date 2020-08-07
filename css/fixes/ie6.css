@@ -1,0 +1,67 @@
+/****************************************************** 
+	Title:    RIPIE6.com
+	Author:   MARTIN DESIGN
+	Updated:  6th of May, 2009
+	Style:    Internet Explorer 6 FIXES
+******************************************************/
+
+
+
+/* ************************* COMMON FIXES */
+
+/* .................. zoom: 1; */
+	div#footer,
+	div#footer div.wrapper {
+		zoom: 1;
+	}
+/* ........................... */
+
+
+/* .......... display: inline; */
+	div#footer div.wrapper div.copyright a.martindesign {
+		display: inline;
+	}
+/* ........................... */
+
+
+/* .......... position: fixed; */
+/*	html, body {
+		height: 100%;
+		overflow: auto;
+	}
+
+	_selector {
+		position: absolute;
+	}*/
+/* ........................... */
+
+
+/* ............ whatever:hover */
+	body {
+		behavior: url("js/fixes/csshover.htc");
+	}
+/* ........................... */
+
+
+/* ................ min-height */
+/*	_selector {
+		overflow: visible;
+	}*/
+/* ........................... */
+
+
+/* ..... Buttons' Side Padding */
+/*	input.btn {
+		overflow: visible;
+	}*/
+/* ........................... */
+
+
+
+
+
+/* ******************************* OTHERS */
+
+	div#footer div.wrapper div.copyright {
+		bottom: 0px;
+	}

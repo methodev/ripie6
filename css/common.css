@@ -1,0 +1,63 @@
+/****************************************************** 
+	Title:    RIPIE6.com
+	Author:   MARTIN DESIGN
+	Updated:  6th of May, 2009
+	Style:    COMMON Stylesheet
+******************************************************/
+
+
+
+/* ******************************* LAYOUT */
+
+/* ...................... Body */
+	html {
+		font-size: 1.25em; /*20px*/
+	}
+
+		body {
+			font-size: 50%; /*10px*/
+		}
+
+			div.wrapper {
+				margin: 0px auto;
+			}
+/* ........................... */
+
+
+/* .................... Header */
+	h1 a {
+		text-indent: -9999px;
+	}
+/* ........................... */
+
+
+
+
+
+/* ****************************** CLASSES */
+
+/* .................... Others */
+	.clearfix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	.left {
+		float: left; 
+	}
+
+	.right {
+		float: right; 
+	}
+
+	.hide {
+		display: none;
+	}
+/* ........................... */

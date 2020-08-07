@@ -1,0 +1,317 @@
+/****************************************************** 
+	Title:    RIPIE6.com
+	Author:   MARTIN DESIGN
+	Updated:  6th of May, 2009
+	Style:    DEFAULT Stylesheet
+******************************************************/
+
+
+
+/****************************************************** 
+	LIST OF CONTENTS
+
+		Layout:				:	Body
+							:	Wrapper
+							:	Logo
+							:	Slogan
+							:	Boxes
+							:	Obituary Link
+							:	Footer
+							:	How it works
+							:	Obituary
+							:	Buttons
+							:	Copyright
+							:	Counters
+
+******************************************************/
+
+
+
+
+
+/* ******************************* LAYOUT */
+
+/* ...................... Body */
+	body {
+		height: 920px;
+		background: url(../images/backgrounds/background.jpg) center top no-repeat;
+		position: relative;
+		font: normal 12px Tahoma, Geneva, sans-serif;
+		color: #FFF;
+		text-align: justify;
+	}
+/* ........................... */
+
+
+/* ................... Wrapper */
+	div#wrapper {
+		width: 980px;
+		margin: 0px auto;
+		overflow: hidden;
+		position: relative;
+	}
+/* ........................... */
+
+
+/* ...................... Logo */
+	h1.logo {
+		width: 418px;
+		height: 130px;
+		margin-top: 30px;
+	}
+
+		h1.logo a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: url(../images/backgrounds/logo.png) center top no-repeat;
+		}
+
+			h1.logo a:hover {
+				background-position: center bottom;
+			}
+/* ........................... */
+
+
+/* .................... Slogan */
+	h2 {
+		text-indent: -9999px;
+	}
+/* ........................... */
+
+
+/* ..................... Boxes */
+	ul.boxes,
+		ul.boxes li {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	ul.boxes {
+		width: 418px;
+		margin-top: 70px;
+	}
+
+		ul.boxes li.pngfix {
+			background-image: url(../images/backgrounds/boxes.png);
+			background-repeat: no-repeat;
+			margin-bottom: 30px;
+		}
+
+			ul.boxes li.pngfix h3,
+			ul.boxes li.pngfix h4 {
+				text-indent: -9999px;
+			}
+
+			ul.boxes li.pngfix p {
+				padding: 26px 40px 0px;
+			}
+
+		ul.boxes li#what_is_it {
+			height: 124px;
+			background-position: center top;
+		}
+
+		ul.boxes li#what_its_not {
+			height: 125px;
+			background-position: center -134px;
+		}
+
+		ul.boxes li#what_to_do {
+			height: 154px;
+			background-position: center bottom;
+			margin-bottom: 0px;
+		}
+/* ........................... */
+
+
+/* ............. Obituary Link */
+	a.obituary_link {
+		display: block;
+		width: 370px;
+		height: 440px;
+		position: absolute;
+		top: 90px;
+		left: 480px;
+		text-indent: -9999px;
+	}
+/* ........................... */
+
+
+/* .................... Footer */
+	div#footer {
+		width: 100%;
+		height: 205px;
+		background: url(../images/backgrounds/footer.png) center top no-repeat;
+		margin-top: 8px;
+		overflow: hidden;
+	}
+
+		div#footer div.wrapper {
+			width: 980px;
+			height: 159px;
+			position: relative;
+			left: 0px;
+			top: 46px;
+		}
+
+			div#footer div.wrapper div.boxes {
+				float: left;
+				height: 144px;
+			}
+
+			div#footer div.wrapper a.logo {
+				display: block;
+				width: 88px;
+				height: 38px;
+				position: absolute;
+				text-indent: -9999px;
+				background: url(../images/backgrounds/footer_logo.png) center top no-repeat;
+				right: 26px;
+				bottom: 5px;
+			}
+
+				div#footer div.wrapper a.logo:hover {
+					background-position: center bottom;
+				}
+/* ........................... */
+
+
+/* .............. How it works */
+	div#footer div.wrapper div#how_it_works {
+		width: 338px;
+		padding: 0px 40px;
+		background: url(../images/backgrounds/yellow_line.gif) right top no-repeat;
+	}
+
+		div#footer div.wrapper div#how_it_works h3 {
+			width: 151px;
+			height: 21px;
+			background: url(../images/backgrounds/how_it_works.png) 0px 0px no-repeat;
+			text-indent: -9999px;
+		}
+
+		div#footer div.wrapper div#how_it_works p {
+			padding-top: 13px;
+		}
+/* ........................... */
+
+
+/* .................. Obituary */
+	div#footer div.wrapper div#obituary {
+		width: 204px;
+		padding: 0px 20px;
+	}
+
+	div#footer div.wrapper div#obituary a.btn {
+		display: block;
+		width: 100%;
+		height: 100px;
+		background: url(../images/backgrounds/obituary_btn.png) center top no-repeat;
+		text-indent: -9999px;
+		margin-top: 12px;
+	}
+
+		div#footer div.wrapper div#obituary a.btn:hover {
+			background-position: center bottom;
+		}
+/* ........................... */
+
+
+/* ................... Buttons */
+	div#footer div.wrapper div#buttons {
+		width: 266px;
+		padding-left: 16px;
+		background: url(../images/backgrounds/yellow_line.gif) left top no-repeat;
+	}
+
+		div#footer div.wrapper div#buttons h3 {
+			text-indent: -9999px;
+			height: 21px;
+			margin-bottom: 15px;
+			background-position: 0px 0px;
+			background-repeat: no-repeat;
+		}
+
+		div#footer div.wrapper div#buttons h3.share_this_place {
+			width: 179px;
+			background-image: url(../images/backgrounds/share_this_place.png);
+		}
+
+		div#footer div.wrapper div#buttons div.share_btn {
+			margin-bottom: 25px;
+		}
+
+		div#footer div.wrapper div#buttons h3.donate {
+			width: 263px;
+			background-image: url(../images/backgrounds/donate.png);
+		}
+
+		div#footer div.wrapper div#buttons div.donate_btn input.paypal_btn {
+			width: 89px;
+			height: 31px;
+			background: url(../images/backgrounds/paypal_btn.png) center top no-repeat;
+		}
+
+			div#footer div.wrapper div#buttons div.donate_btn input.paypal_btn:hover {
+				background-position: center bottom;
+			}
+/* ........................... */
+
+
+/* ................. Copyright */
+	div#footer div.wrapper div.copyright {
+		width: 204px;
+		height: 19px;
+		position: absolute;
+		bottom: 10px;
+		left: 439px;
+		font: normal 11px Arial, Helvetica, sans-serif;
+		text-align: center;
+		line-height: 19px;
+	}
+
+		div#footer div.wrapper div.copyright span,
+		div#footer div.wrapper div.copyright a.martindesign {
+			float: left;
+		}
+
+		div#footer div.wrapper div.copyright a.martindesign {
+			text-indent: -9999px;
+			width: 55px;
+			height: 100%; /*19px*/
+			background: url(../images/backgrounds/martindesign.png) center top no-repeat;
+			margin: 0px 10px;
+		}
+
+			div#footer div.wrapper div.copyright a.martindesign:hover {
+				background-position: center bottom;
+			}
+/* ........................... */
+
+
+/* .................. Counters */
+	div.counters {
+		font-size: 0pt;
+		margin: 0px;
+		padding: 0px;
+		width: 1px;
+		height: 1px;
+		position: absolute;
+		right: 185px;
+		bottom: 42px;
+		background: none;
+	}
+
+		div.counters div.tyxo {
+			visibility: hidden;
+		}
+
+			div.counters div.supporters h3 {
+				width: 54px;
+				height: 14px;
+				background: url(../images/backgrounds/supporters.png) 0px 0px no-repeat;
+				text-indent: -9999px;
+			}
+/* ........................... */
